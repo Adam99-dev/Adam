@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color:bisque;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Ubuntu",sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.logo:hover{
+    border: 2px white solid;
+    border-radius: 10px;
+}
+
+.home:hover{
+    color: chartreuse;
+}
+
+.About:hover{
+    color: chartreuse;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    width: 70%;
+    margin:23px auto;
+    color: azure;
+    display: flex; 
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px chartreuse;
+    font-family: "Ubuntu",sans-serif;
+    background-image: url(/bg.png);
+    background-size: cover;
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    position: sticky;
+    flex-direction: column;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.Login{
+    height: 40px;
+    width: 100px;
+    background-color: chartreuse;
+    border-radius:20px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.Login:hover{
+    color: chartreuse;
+    background-color: black;
+}
+.icons{
+    margin-top: 14px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.icons i{
+    cursor: pointer;
+    margin:10px;
+
+}
+
+#myProgressBar:hover{
+    opacity:1;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor:pointer;
+    opacity: 0.5;
+    background-color: chartreuse;
+}
+
+h1{
+    padding: 20px;
+}
+
+.songItems{
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-around;
+    margin-left: 15px;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.songItems img{
+    width: 43px;
+    border-radius: 50%;
+}
+
+.songItems i{
+    margin-left: 10px;
+}
+
+span i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 9vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity ease-in 1s;
+}
