@@ -1,2 +1,2 @@
-# Adam
-HTML CSS JAVASCRIPT C++ 
+# Spotify Clone using 
+HTML CSS JAVASCRIPT
